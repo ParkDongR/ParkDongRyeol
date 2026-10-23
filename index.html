@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="전력설비 진단부터 신재생에너지까지. KESS 기업 웹사이트 디자인 목업입니다.">
+  <meta name="theme-color" content="#102c29">
+  <meta name="robots" content="noindex,nofollow">
+  <title>KESS — 에너지의 내일을 더 안전하게</title>
+  <link rel="icon" href="assets/symbol.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="data.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로가기</a>
+  <div class="utility"><div class="container utility-inner"><span>ENGINEERING SAFETY. POWERING TOMORROW.</span><span>예시 콘텐츠로 구성한 디자인 목업 <i></i> KOREAN</span></div></div>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#/" class="brand" aria-label="KESS 홈"><img src="assets/logo.svg" width="164" height="48" alt="KESS 예시 로고"></a>
+      <nav class="desktop-nav" aria-label="주 메뉴">
+        <a href="#/company" data-nav="company">회사소개</a><a href="#/services" data-nav="services">사업분야</a><a href="#/careers" data-nav="careers">채용</a><a href="#/esg" data-nav="esg">ESG 경영</a><a href="#/support" data-nav="support">고객지원</a>
+      </nav>
+      <a class="header-cta" href="#/contact">기술 상담 <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" aria-controls="mobile-nav" aria-expanded="false" aria-label="메뉴 열기"><span></span><span></span></button>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="모바일 메뉴" hidden><a href="#/company">회사소개 <span>01</span></a><a href="#/services">사업분야 <span>02</span></a><a href="#/careers">채용 <span>03</span></a><a href="#/esg">ESG 경영 <span>04</span></a><a href="#/support">고객지원 <span>05</span></a><a href="#/contact">기술 상담 ↗</a></nav>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer">
+    <div class="container footer-top"><div><a href="#/" class="footer-brand"><img src="assets/logo-light.svg" alt="KESS 예시 로고" width="164" height="48"></a><p>오늘의 진단이, 내일의 안심으로.<br>에너지의 모든 순간에 함께합니다.</p></div><div class="footer-nav"><a href="#/company">회사소개</a><a href="#/services">사업분야</a><a href="#/esg">ESG 경영</a><a href="#/support">고객지원</a><a href="#/contact">기술 상담 ↗</a></div><div class="footer-contact"><span>LET’S TALK</span><a href="#/contact">안전한 내일을<br>함께 설계할까요? ↗</a><p>연락처와 주소는 회사 정보로 교체해 주세요.</p></div></div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> KESS CONCEPT. 기업 웹사이트 목업</span><div><button data-action="privacy">개인정보 안내</button><button data-action="credits">이미지 출처</button><a href="#/contact">CONTACT</a></div></div>
+  </footer>
+  <button class="back-top" aria-label="맨 위로 이동">↑</button>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="info-dialog"><div class="dialog-top"><span>KESS INFORMATION</span><button data-action="close-dialog" aria-label="닫기">×</button></div><div id="dialog-body"></div></dialog>
+</body>
+</html>
