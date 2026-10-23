@@ -10,7 +10,7 @@ window.SITE = {
   address: '서울특별시 ○○구 ○○로 00 (주소 예시)',
   hours: '평일 09:00–18:00 · 주말 및 공휴일 휴무',
   hero: [
-    { image:'solar-hero.jpg', kicker:'ENGINEERING SAFETY, EVERY DAY', title:'에너지의 오늘을 진단하고,', accent:'내일의 안전을 설계합니다.', body:'전력설비 진단부터 안전관리, 신재생에너지까지.\n보이지 않는 위험을 읽고, 흔들림 없는 일상을 만듭니다.', label:'01 — SOLAR ENERGY' },
+    { image:'solar-hero.jpg', kicker:'ENGINEERING SAFETY, EVERY DAY', title:'박동렬이 직접 개발하고 진단하며,', accent:'내일의 안전을 설계합니다.', body:'전력설비 진단부터 안전관리, 신재생에너지까지.\n보이지 않는 위험을 읽고, 흔들림 없는 일상을 만듭니다.', label:'01 — SOLAR ENERGY' },
     { image:'power-grid.jpg', kicker:'RELIABILITY STARTS WITH INSIGHT', title:'작은 신호를 놓치지 않는 기술,', accent:'멈추지 않는 현장을 위해.', body:'설비의 현재를 정확하게 이해하는 것.\n안전한 에너지 운영은 꼼꼼한 진단에서 시작됩니다.', label:'02 — POWER INFRASTRUCTURE' },
     { image:'wind-energy.jpg', kicker:'A BETTER ENERGY FUTURE', title:'지속 가능한 에너지에,', accent:'지속 가능한 안전을.', body:'새로운 에너지의 가능성을 더 오래, 더 안정적으로.\n친환경 설비의 건강한 운영을 함께 고민합니다.', label:'03 — WIND ENERGY' }
   ],
